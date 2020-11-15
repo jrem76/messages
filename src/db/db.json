@@ -1,0 +1,29 @@
+{
+  "messages": [
+    {
+      "id": 0,
+      "isPrivate": false,
+      "message": "Integer vehicula lacus velit, placerat tempor ligula convallis quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam imperdiet quam eu congue varius. Maecenas rhoncus orci ut enim imperdiet tempor. Praesent vitae justo lectus. Pellentesque lobortis tincidunt quam eu eleifend. Duis ac lorem sagittis, efficitur lacus sit amet, iaculis mi. Ut dapibus ante elit, nec maximus lorem auctor in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec diam ut nisl vestibulum dignissim."
+    },
+    {
+      "id": 1,
+      "isPrivate": true,
+      "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et sem sit amet mi viverra viverra. Aliquam vestibulum aliquam est quis faucibus. Pellentesque vitae dolor nunc. Curabitur vitae pharetra nisi. Maecenas efficitur tellus rhoncus, ultricies diam ut, lobortis libero. Phasellus id dui luctus mauris accumsan hendrerit placerat nec mauris. In a lobortis leo. Nunc enim nisi, imperdiet vel euismod sit amet, convallis a leo. Integer aliquam dui risus, ut lobortis sapien aliquam quis. Sed congue turpis vel eleifend ullamcorper. Sed mollis scelerisque erat. Suspendisse potenti. Ut ornare euismod nulla, eu rhoncus erat faucibus et."
+    },
+    {
+      "id": 2,
+      "isPrivate": false,
+      "message": "Morbi in erat eget libero pellentesque pulvinar vel eget turpis. Maecenas sed imperdiet elit. Donec quam odio, auctor id nisl a, efficitur scelerisque orci. Sed nulla mi, lacinia vel imperdiet id, consequat id velit. Suspendisse eget venenatis felis. Etiam vitae imperdiet urna. Etiam et interdum diam."
+    },
+    {
+      "id": 3,
+      "isPrivate": false,
+      "message": "Aliquam porttitor rhoncus risus, commodo ultricies elit accumsan id. Proin semper venenatis diam quis sagittis. Vivamus convallis malesuada tincidunt. Vivamus nec consectetur nibh. Fusce scelerisque condimentum velit, in tempus mauris mattis ac. Fusce a turpis lectus. Pellentesque pellentesque euismod justo sed imperdiet."
+    },
+    {
+      "id": 4,
+      "isPrivate": false,
+      "message": "Integer vehicula lacus velit, placerat tempor ligula convallis quis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam imperdiet quam eu congue varius. Maecenas rhoncus orci ut enim imperdiet tempor"
+    }
+  ]
+}

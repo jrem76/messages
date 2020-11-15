@@ -1,0 +1,6 @@
+.messageItem {
+  width: 100%;
+  border: solid 1px black;
+  padding: 10px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,6 @@
+.messagesContainer__list {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin: auto;
+}
