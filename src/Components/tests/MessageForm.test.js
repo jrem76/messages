@@ -1,26 +1,26 @@
-import { render, screen, fireEvent } from '@testing-library/react'
-import userEvent from '@testing-library/user-event'
-import { MessageForm } from "../MessageForm"
+import { render, screen, fireEvent } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+import { MessageForm } from "../MessageForm";
 
-describe('MessageFormTest:', () => {
-  const mockSubmitForm = jest.fn()
+describe("MessageFormTest:", () => {
+  const mockSubmitForm = jest.fn();
   test("Add message button is disabled when message is empty", async () => {
-    render(<MessageForm submitForm={mockSubmitForm} />)
+    render(<MessageForm submitForm={mockSubmitForm} />);
 
-    expect(screen.getByRole("button")).toBeDisabled()
-  })
+    expect(screen.getByRole("button")).toBeDisabled();
+  });
 
   test("Add message workflow", async () => {
-    render(<MessageForm submitForm={mockSubmitForm} />)
+    render(<MessageForm submitForm={mockSubmitForm} />);
 
-    fireEvent.change(screen.getByRole('textbox'), {
-      target: { value: 'Test' },
-    })
+    fireEvent.change(screen.getByRole("textbox"), {
+      target: { value: "Test" },
+    });
 
-    expect(screen.getByRole('textbox').value).toBe('Test')
+    expect(screen.getByRole("textbox").value).toBe("Test");
 
-    await userEvent.click(screen.getByRole('button'))
+    await userEvent.click(screen.getByRole("button"));
 
-    expect(mockSubmitForm).toHaveBeenCalledTimes(1)
-  })
-})
+    expect(mockSubmitForm).toHaveBeenCalledTimes(1);
+  });
+});

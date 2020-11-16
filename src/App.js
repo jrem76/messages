@@ -1,6 +1,6 @@
-import './App.css';
+import "./App.css";
 
-import { MessagesContainer } from "./Components/MessagesContainer"
+import { MessagesContainer } from "./Components/MessagesContainer";
 
 function App() {
   return (
