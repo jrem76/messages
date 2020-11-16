@@ -22,12 +22,12 @@ export const MessageForm = ({ submitForm }) => {
 
   return (<form onSubmit={handleSubmit} className="messageForm__container">
     <div className="messageForm__labelContainer">
-      <span className="messageForm__labelLeft">Private message</span>
+      <span className="messageForm__labelLeft">Public message</span>
       <label className="switch">
         <input type="checkbox" onChange={event => setIsPrivate(event.target.checked)}/>
         <span className="slider round"></span>
       </label>
-      <span className="messageForm__labelRight">Public message</span>
+      <span className="messageForm__labelRight">Private message</span>
     </div>
     <textarea className="messageForm__textbox" onChange={ event => setMessage(event.target.value)} rows="5" cols="33"></textarea>
     <button className="messageForm__button" type="submit" disabled={message.length === 0}> Add Message </button>
